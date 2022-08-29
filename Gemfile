@@ -43,7 +43,15 @@ gem "tzinfo-data", platforms: %i[ mingw mswin x64_mingw jruby ]
 gem "bootsnap", require: false
 
 # Use Sass to process CSS
+gem 'sassc', '~> 2.4'
 # gem "sassc-rails"
+gem 'sassc-rails', '~> 2.1', '>= 2.1.2'
+
+# Use SCSS for stylesheets 
+# gem "sass-rails", "~> 5"
+
+# Transpile app-like JavaScript. Read more: https://github.com/rails/webpacker
+gem "webpacker", "~> 4.0"
 
 # Use Active Storage variants [https://guides.rubyonrails.org/active_storage_overview.html#transforming-images]
 # gem "image_processing", "~> 1.2"
